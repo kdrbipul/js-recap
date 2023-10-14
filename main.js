@@ -17,3 +17,11 @@
 // let array2 = array1.slice(0).concat(['item3', 'item4']);
 // console.log(array2);
 
+// let array1 = ['item1','item2','item3']
+// let array2 = [].concat(array1,['item4']);
+// console.log(array2);
+
+let array1 = ['item1','item2'];
+let array2 = ['item3', 'item4'];
+let array3 = [...array1, ...array2]
+console.log(array3);
