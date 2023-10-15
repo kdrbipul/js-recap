@@ -32,14 +32,20 @@
 //     console.log(fruits[fruit]);
 // } 
 
-const person = {name:'abdul kader',
- age:23, 
- hobbies:[
-    'caroom', 
-    'cooking', 
-    'eating','coding'
-]
-}
-console.log(typeof person);
-console.log(person);
-console.log(person.hobbies, person.hobbies[2]);
+// const person = {name:'abdul kader',
+//  age:23, 
+//  hobbies:[
+//     'caroom', 
+//     'cooking', 
+//     'eating','coding'
+// ]
+// }
+// console.log(typeof person);
+// console.log(person);
+// console.log(person.hobbies, person.hobbies[2]);
+
+const person = {name: 'abutl kader', age: 23, 'person hobbies' : [
+    'carrom', 'cooking', 'eating'
+]}
+
+console.log(person['person hobbies']);
