@@ -26,8 +26,20 @@
 // let array3 = [...array1, ...array2]
 // console.log(array3);
 
-const fruits = ['item1','item2','item3'];
+// const fruits = ['item1','item2','item3'];
 
-for (let fruit in fruits){
-    console.log(fruits[fruit]);
+// for (let fruit in fruits){
+//     console.log(fruits[fruit]);
+// } 
+
+const person = {name:'abdul kader',
+ age:23, 
+ hobbies:[
+    'caroom', 
+    'cooking', 
+    'eating','coding'
+]
 }
+console.log(typeof person);
+console.log(person);
+console.log(person.hobbies, person.hobbies[2]);
