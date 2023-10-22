@@ -89,4 +89,6 @@ const users = [
 // console.log(users);
 
 
-console.log(users);
+console.log(Array.isArray(users));
+const [{p1},{p2},{p3},[{firstName}]] = users;
+console.log(firstName);
