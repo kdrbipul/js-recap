@@ -75,7 +75,11 @@ const users = [
     },
     [
         {
-            
+            userId : 4,
+            firstName : 'rahima',
+            lastName : 'begum',
+            age : 34,
+            gender : 'female'
         }
     ]
 ];
@@ -84,5 +88,5 @@ const users = [
 // const [{user1},{user2},{user3}] = users;
 // console.log(users);
 
-const [user1] = users;
+
 console.log(users);
