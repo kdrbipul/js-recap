@@ -93,9 +93,16 @@
 // const [{p1},{p2},{p3},[{firstName}]] = users;
 // console.log(firstName);
 
-function birthdaySong() {
-    console.log('Happy Birthday to you');
-}
-return birthdaySong();
+// function birthdaySong() {
+//     console.log('Happy Birthday to you');
+// }
+// birthdaySong();
 
+
+function  addition(number1, number2){
+    return number1+number2;
+}
+
+const addit = addition(5,9);
+console.log(addit);
 
