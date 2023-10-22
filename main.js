@@ -103,6 +103,6 @@ function  addition(number1, number2){
     return number1+number2;
 }
 
-const addit = addition(5,9);
-console.log(addit);
+const auddit = addition(5,9);
+console.log(auddit);
 
