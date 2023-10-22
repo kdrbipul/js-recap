@@ -51,44 +51,51 @@
 // console.log(person['person hobbies']);
 
 
-const users = [
-    {
-        userId : 1,
-        firstName : 'abdul',
-        lastName : 'kader',
-        age : 23,
-        gender : 'male'
-    },
-    {
-        userId : 1,
-        firstName : 'abdul',
-        lastName : 'baten',
-        age : 28,
-        gender : 'male'
-    },
-    {
-        userId :1,
-        firstName : 'mst',
-        lastName : 'mithila',
-        age : 20,
-        gender : 'female'
-    },
-    [
-        {
-            userId : 4,
-            firstName : 'rahima',
-            lastName : 'begum',
-            age : 34,
-            gender : 'female'
-        }
-    ]
-];
+// const users = [
+//     {
+//         userId : 1,
+//         firstName : 'abdul',
+//         lastName : 'kader',
+//         age : 23,
+//         gender : 'male'
+//     },
+//     {
+//         userId : 1,
+//         firstName : 'abdul',
+//         lastName : 'baten',
+//         age : 28,
+//         gender : 'male'
+//     },
+//     {
+//         userId :1,
+//         firstName : 'mst',
+//         lastName : 'mithila',
+//         age : 20,
+//         gender : 'female'
+//     },
+//     [
+//         {
+//             userId : 4,
+//             firstName : 'rahima',
+//             lastName : 'begum',
+//             age : 34,
+//             gender : 'female'
+//         }
+//     ]
+// ];
 
 
 // const [{user1},{user2},{user3}] = users;
 // console.log(users);
 
 
-console.log(Array.isArray(users));
-const [{p1},{p2},{p3},[{firstName}]] = users;
-console.log(firstName);
+// console.log(Array.isArray(users));
+// const [{p1},{p2},{p3},[{firstName}]] = users;
+// console.log(firstName);
+
+function birthdaySong() {
+    console.log('Happy Birthday to you');
+}
+return birthdaySong();
+
+
