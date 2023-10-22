@@ -99,10 +99,23 @@
 // birthdaySong();
 
 
-function  addition(number1, number2){
-    return number1+number2;
+// function  addition(number1, number2){
+//     return number1+number2;
+// }
+
+// const auddit = addition(5,9);
+// console.log(auddit);
+
+
+
+function isEven(number){
+    if (number % 2 === 0){
+        return true;
+    }else{
+        return false;
+    }
 }
 
-const auddit = addition(5,9);
-console.log(auddit);
+// console.log(number(5));
 
+console.log(isEven(5));
